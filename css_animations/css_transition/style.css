@@ -19,7 +19,7 @@ body{
     margin: 60px auto;
     background: pink;
     color: white;
-    porder-radius: 50px;
+    border-radius: 50px;
     cursor: pointer;
     transition: 1s;
 }

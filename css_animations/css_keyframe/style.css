@@ -1,0 +1,30 @@
+html, body{
+
+}
+
+.grass, .sky {
+  position: relative;
+}
+
+.grass{
+  height: 30%;
+  background: seagreen;
+}
+
+.sky{
+  height: 40%;
+  background: skyblue;
+}
+
+.cirlce{
+  position: absolute;
+  top: -40px;
+  left: 8px;
+  animation-name: drive;
+  animation-duration: 3s;
+}
+
+@keyframes drive{
+  from{ transform: translateX(0) }
+  to{ transform: translateX(500px) }
+}

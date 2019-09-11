@@ -21,6 +21,13 @@ body{
     color: white;
     porder-radius: 50px;
     cursor: pointer;
+    transition: 1s;
+}
+
+.circle:hover{
+    background:salmon;
+    transform: rotate(360);
+    
 }
 
 img{

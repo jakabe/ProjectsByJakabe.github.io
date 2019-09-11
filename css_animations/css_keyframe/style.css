@@ -17,6 +17,14 @@ html, body{
 }
 
 .cirlce{
+  width: 100px;
+  padding: 50px;
+  line-height: 0;
+  margin: 60px auto;
+  background: pink;
+  color: white;
+  border-radius: 50px;
+  
   position: absolute;
   top: -40px;
   left: 8px;

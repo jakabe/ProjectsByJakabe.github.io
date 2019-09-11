@@ -1,0 +1,13 @@
+body{
+    background: lightblue;
+    text-align: center;
+    
+
+}
+
+.wrapper{
+    width: 100%;
+    padding: 20pc;
+    box-sizing: border-box;
+    
+}

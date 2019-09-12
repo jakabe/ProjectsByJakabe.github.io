@@ -33,6 +33,6 @@ html, body{
 }
 
 @keyframes drive{
-  from{ transform: translateX(0) }
-  to{ transform: translateX(500px) }
+  from{ top: 0px }
+  to{ top: 500px }
 }

@@ -1,38 +1,54 @@
-html, body{
+body{
+    background: blanchedalmond ;
+    text-align: center;
+    
 
 }
 
-.grass, .sky {
-  position: relative;
+.wrapper{
+    width: 100%;
+    padding: 20pc;
+    box-sizing: border-box;
+    
 }
 
-.grass{
-  height: 30%;
-  background: seagreen;
+.circle{
+    width: 100px;
+    padding: 50px;
+    line-height: 0;
+    margin: 60px auto;
+    background: pink;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
 }
 
-.sky{
-  height: 40%;
-  background: skyblue;
+.circle:hover{
+    background:salmon;
+    transform: rotate(360);
+    
 }
 
-.cirlce{
-  width: 100px;
-  padding: 50px;
-  line-height: 0;
-  margin: 60px auto;
-  background: pink;
-  color: white;
-  border-radius: 50px;
-  
-  position: absolute;
-  top: -40px;
-  left: 8px;
-  animation-name: drive;
-  animation-duration: 3s;
+img{
+    /*// transform: translateX( 200px) ;/*//
+    transform: scaleX(3);
+    
 }
 
-@keyframes drive{
-  from{ top: 0px }
-  to{ top: 500px }
+/*// ELEMENTS TO ANIMATE //*/
+
+.cloud{
+    position: absolute;
+    top: -40px;
+    left: 8px;
+    animation-name: drift;
+    animation-duration: 5s;
+}
+
+
+@keyframes drift{
+    from {transform: translateX(0) }
+    to { transform: translateX(1000px) }
+    
 }
